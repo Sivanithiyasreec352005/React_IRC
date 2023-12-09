@@ -1,0 +1,30 @@
+body {
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    height: 90vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.container {
+    height: 60vh;
+    width: 30vw;
+    display: flex;
+    background: #c9f3c9;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background:linear-gradient(to right, #ffffff, #abbaab);
+    align-items:center;
+    justify-content:center;
+    gap: 2rem;
+    border-radius: 15px;
+}
+
+.au {
+    border-radius: 1px;
+    justify-content: center;
+    
+}
