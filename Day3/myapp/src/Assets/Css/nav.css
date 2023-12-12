@@ -155,8 +155,19 @@
   .nav{
     background-color: rgb(56, 49, 49);
   }
-  .container
+  /* .container
   {
     text-color:black;
-  }
+  } */
   
+  .navbar{
+  
+  z-index: 9999;
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: 0;
+  width: 100vw;
+  height:100vh;
+  /* padding:0cm; */
+  }

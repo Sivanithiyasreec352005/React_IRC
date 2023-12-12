@@ -2,7 +2,7 @@ const Footer=()=>
 {
     return(
         <div CLASS="container"> 
-       <h2>"LIVE LIFE WITH NO EXCUSES, TRAVEL WITH NO REGRET"</h2>
+       <h3>"LIVE LIFE WITH NO EXCUSES, TRAVEL WITH NO REGRET"</h3>
       </div>
     )
 }
