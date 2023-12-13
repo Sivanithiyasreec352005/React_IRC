@@ -7,7 +7,7 @@ body {
     background-image:url("https://images.unsplash.com/photo-1535882757-b48db88a5154?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-size: cover; 
-    margin: 0;
+    margin: 10px;
     border-radius: 15px; 
     
 }
@@ -36,7 +36,7 @@ input {
     box-sizing: border-box; 
 } 
 nav {
-    background-color: #333; /* You can change the background color as needed */
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 15px;
