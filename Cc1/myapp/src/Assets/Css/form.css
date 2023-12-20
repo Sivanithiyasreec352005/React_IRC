@@ -1,43 +1,36 @@
 html {
     font-size: 62.5%;
   }
-  
-  body {
+  .body1 {
+    background-image:url("https://t3.ftcdn.net/jpg/06/50/21/98/240_F_650219803_SKKdh9Wyx8FpcHHH9k1pJugOXvSJucV7.jpg");
     font-size: 1.6rem;
     line-height: 1.6;
     font-family: "Source Sans Pro";
     background-size:cover ;
   }
-  
   h1 {
-    /* background-image:url("https://t3.ftcdn.net/jpg/06/32/84/96/240_F_632849610_xcCWfBprwxjGe19QH7XYUu7IzdVnKCvi.jpg"); */
+    background-image:url("https://t3.ftcdn.net/jpg/06/32/84/96/240_F_632849610_xcCWfBprwxjGe19QH7XYUu7IzdVnKCvi.jpg");
     font-size: 2.5rem;
     padding: 15px 20px;
-    background-color: rgba(255, 219, 58, 0.3);
     margin-bottom: 20px;
     text-align: center;
   }
-  
   a {
     text-decoration: underline;
     color: inherit;
   }
-  
   .container {
     margin: 80px auto;
     width: 90%;
     max-width: 800px;
   }
-  
   .registration {
     background-color: #fff;
     max-width: 600px;
     margin: 0 auto;
     padding-bottom: 20px;
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
     border-bottom: 5px solid #ffdb3a;
   }
-  
   .input-requirements {
     font-size: 1.3rem;
     font-style: italic;
@@ -48,21 +41,18 @@ html {
     margin: 10px auto;
     color: rgb(150, 150, 150);
   }
-  
   .input-requirements li.invalid {
     color: #e74c3c;
   }
   .input-requirements li.valid {
     color: #2ecc71;
   }
-  
   .input-requirements li.valid:after {
     display: inline-block;
     padding-left: 10px;
     content: "\2713";
   }
   :root {
-   
     --fh-font-family: "Source Sans Pro", sans-serif;
     --fh-font-size: 15px;
     --fh-font-color: rgb(40, 40, 40);
@@ -77,8 +67,7 @@ html {
     --fh-focus-bg-color: var(--fh-input-bg-color);
     --fh-focus-border-color: #000;
     --fh-focus-font-color: var(--fh-font-color);
-    --fh-select-vendor-styling: none; 
-
+    --fh-select-vendor-styling: none;
     --fh-button-height: 40px;
     --fh-button-width: 100%;
     --fh-button-max-width: 200px;
@@ -90,7 +79,6 @@ html {
     --fh-layout-margin: 10px auto; 
     --fh-layout-text-align: center;
   }
-
   input,
   textarea,
   select,
@@ -101,7 +89,6 @@ html {
   fieldset {
     box-sizing: border-box;
     outline: none;
-  
     font-family: var(--fh-font-family);
     font-size: var(--fh-font-size);
     color: var(--fh-font-color);
@@ -111,12 +98,10 @@ html {
     margin: var(--fh-layout-margin);
     text-align: var(--fh-layout-text-align);
   }
-  
   datalist {
     font-family: var(--fh-font-family);
     font-size: var(--fh-font-size);
   }
-  
   label {
     display: block;
     margin: var(--fh-layout-margin);
@@ -146,7 +131,6 @@ html {
     max-width: var(--fh-input-max-width);
     padding: calc(var(--fh-input-height) / 5);
     background-color: var(--fh-input-bg-color);
-  
     border-radius: var(--fh-border-radius);
     border-width: var(--fh-border-width);
     border-style: var(--fh-border-style);
@@ -194,7 +178,6 @@ html {
     display: inline-block;
     vertical-align: middle;
   }
-  
   select {
     height: var(--fh-input-height);
   
@@ -203,13 +186,11 @@ html {
     -ms-appearance: var(--fh-select-vendor-styling, menulist);
     -o-appearance: var(--fh-select-vendor-styling, menulist);
   }
-  
   select[multiple] {
     height: auto;
     min-height: var(--fh-input-height);
     padding: 0;
   }
-  
   select[multiple] option {
     margin: 0;
     padding: calc(var(--fh-input-height) / 5);
@@ -218,7 +199,6 @@ html {
     padding: 0;
     border: 0;
   }
-  
   legend {
     padding: 0;
     font-weight: inherit;
@@ -258,9 +238,8 @@ html {
   select[disabled],
   option[disabled],
   button[disabled] {
-    cursor: not-allowed;
-  }
-  
+  cursor: not-allowed;
+  } 
   input:focus,
   textarea:focus,
   select:focus,
@@ -268,13 +247,11 @@ html {
   button:focus {
     background-color: var(--fh-focus-bg-color);
     border-color: var(--fh-focus-border-color);
-  }
-  
+  } 
   input[type="checkbox"]:focus,
   input[type="radio"]:focus {
     outline: var(--fh-focus-border-color) solid 2px;
   }
-  
   button:hover,
   input[type="button"]:hover,
   input[type="submit"]:hover,

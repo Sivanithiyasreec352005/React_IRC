@@ -50,8 +50,11 @@ h2 strong,
 h2 span {
   vertical-align: middle;
 }
-body {
-  background: #24282f;
+
+body  {
+  background-image:url("https://t3.ftcdn.net/jpg/06/50/21/98/240_F_650219803_SKKdh9Wyx8FpcHHH9k1pJugOXvSJucV7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Alegreya Sans';
 }
 .wrapper {

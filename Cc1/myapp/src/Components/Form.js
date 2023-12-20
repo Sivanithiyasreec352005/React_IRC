@@ -3,6 +3,9 @@ const Form =() =>
 {
     return (
         <>
+
+        <div class="body1">
+
         <div class="container">
   <form class="registration">
     <h1>Registration Form</h1>
@@ -40,7 +43,7 @@ const Form =() =>
 
   </form>
 </div>
-
+        </div>
 
         </>
     )

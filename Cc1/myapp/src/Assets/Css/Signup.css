@@ -6,7 +6,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: "Jost", sans-serif;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
   }
   .main {
     width: 350px;
@@ -79,7 +79,7 @@ body {
     color: #c2b4bd;
     transform: scale(0.6);
   }
-  
+
   #chk:checked ~ .login {
     transform: translateY(-500px);
   }
