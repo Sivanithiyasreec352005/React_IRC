@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bodyt {
+    background-image: url('https://www.careerguide.com/career/wp-content/uploads/2021/06/event-management.gif');
+    background-repeat: no-repeat;
+    background-size: 250vh 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    height: 400px;
+    width: 300px;
+  }

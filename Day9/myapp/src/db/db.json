@@ -1,0 +1,20 @@
+{
+    "users":[
+        {
+            "id":1,
+            "username":"siva nithiya sree c",
+            "password":"nith"
+        },
+        {
+            "id":2,
+            "username":" nithiya sree c",
+            "password":"ni1h" 
+        }
+    ],
+    "products":[
+        {
+            "pid":1,
+            "productname":"apple"    
+        }
+    ]
+}

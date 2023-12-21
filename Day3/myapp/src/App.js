@@ -1,7 +1,7 @@
 // import Nav from "./Components/Nav";
  import './Assets/Css/nav.css';
 //  import Img1 from './Assets/Css/Img/tower-103417_640.jpg'
-// import Footer from "./Components/Footer";
+ import Footer from "./Components/Footer";
 function App()
 {
 return(
